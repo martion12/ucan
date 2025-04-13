@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  background: radial-gradient(circle, #FFD700 0%, transparent 70%);
+  pointer-events: none;
+  width: 400px;
+  height: 400px;
+}
+
+.affirmation-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: radial-gradient(circle at center, #ffedb0 0%, white 50%);
+  min-height: 100vh;
+  overflow: hidden;
+}
